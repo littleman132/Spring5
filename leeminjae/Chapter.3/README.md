@@ -90,7 +90,6 @@ public class ApplicationContext {
 - 설정 파일 여러개도 가능 (ex: `new AnnotationConfigApplicaionContext(ApplicaionContext1.class, ApplicationContext2.class)`)
 
 > 컨테이너를 직접 선언하지 않아도 자동으로 컨테이너가 생성되었던 것은 SpringApplication.run()에서 생성했기 때문이다.  
-> 참고 자료: [Spring 공식 문서](https://docs.spring.io/spring-framework/docs/5.3.x/reference/html/core.html#beans-basics)
 
 #### getBean()
 
